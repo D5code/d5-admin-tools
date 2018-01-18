@@ -2,7 +2,7 @@
 
 /* 
 Plugin Name: D5 Admin Tools
-Description: A suite of utilities to assist administration
+Description: A suite of utilities to assist site administration
 Author: Duane Hass
 Version: 0.1.1
 */
@@ -16,14 +16,14 @@ require 'plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'https://github.com/D5code/d5-admin-tools/',
 	__FILE__,
-	'unique-plugin-or-theme-slug'
+	'd5-admin-tools'
 );
 
 //Optional: If you're using a private repository, specify the access token like this:
 //$myUpdateChecker->setAuthentication('your-token-here');
 
 //Optional: Set the branch that contains the stable release.
-//$myUpdateChecker->setBranch('stable-branch-name');
+$myUpdateChecker->setBranch('master');
 
 
 
