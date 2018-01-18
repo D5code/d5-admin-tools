@@ -4,7 +4,7 @@
 Plugin Name: D5 Admin Tools
 Description: A suite of utilities to assist site administration
 Author: Duane Hass
-Version: 0.1.1
+Version: 0.1.2
 */
 
 // prevent execution outside of WP environment
