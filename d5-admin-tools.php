@@ -4,11 +4,28 @@
 Plugin Name: D5 Admin Tools
 Description: A suite of utilities to assist administration
 Author: Duane Hass
-Version: 0.1
+Version: 0.1.1
 */
 
 // prevent execution outside of WP environment
 defined('ABSPATH') or die("No direct access");
+
+
+
+require 'plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+	'https://github.com/D5code/d5-admin-tools/',
+	__FILE__,
+	'unique-plugin-or-theme-slug'
+);
+
+//Optional: If you're using a private repository, specify the access token like this:
+//$myUpdateChecker->setAuthentication('your-token-here');
+
+//Optional: Set the branch that contains the stable release.
+//$myUpdateChecker->setBranch('stable-branch-name');
+
+
 
 
 
@@ -41,8 +58,9 @@ function d5f_admin_init(){
 	
 	
 		<form action="" method="post" name="new_league" id="new_league">
-			<textarea name="" id=""></textarea>
-			<input type="submit" name="new_league_submit" value="Submit">
+			<label for="d5at_header_code">Header Code: </label>
+			<textarea name="d5at_header_code" id="d5at_header_code"></textarea><br>
+			<input type="submit" name="d5at_header_submit" value="Submit">
 			
 		</form>
 	</table>
