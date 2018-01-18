@@ -4,7 +4,7 @@ Donate link: http://design519.com/
 Tags: admin tools, helper
 Requires at least: 3.1
 Tested up to: 4.9.2
-Stable tag: 0.1.1
+Stable tag: 0.1.3
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -50,6 +50,10 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 2. This is the second screen shot
 
 == Changelog ==
+
+= 0.1.3 =
+* Added Update Checker functionality
+* Changed version number.
 
 = 0.1.1 =
 * A change since the previous version.
