@@ -4,7 +4,7 @@ Donate link: http://design519.com/
 Tags: admin tools, helper
 Requires at least: 3.1
 Tested up to: 5.0.3
-Stable tag: 0.1.5
+Stable tag: 0.1.6
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -50,6 +50,12 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 2. This is the second screen shot
 
 == Changelog ==
+
+= 0.1.6 =
+* Testing update functionality from new git account
+
+= 0.1.5 =
+* Tested compatibility with WP 5.0.3 and updated ReadMe
 
 = 0.1.4 =
 * Reorganized file structure 
