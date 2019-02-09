@@ -35,7 +35,7 @@ function d5f_header_footer_init(){
 
 
  /**
-  * Output the saved data into the head section using
+  * Output the saved data into the head section 
   * by hooking into wp_head()
   *
   */
