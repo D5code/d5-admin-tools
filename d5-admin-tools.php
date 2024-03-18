@@ -35,7 +35,7 @@ require_once( 'inc/header-footer-code.php' );
 add_filter('widget_text','do_shortcode');
 
 
-
+//Adding comment to test online editor
  
  
 /**
