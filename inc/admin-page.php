@@ -45,7 +45,7 @@ if ( isset($_POST['d5at_show_info'] )){
 
 
 if ( !function_exists( 'd5f_custom_admin_notices' ) ) {
-	function d5f_custom_admin_notices($message, $type, $dismiss = 'is-dismissible'){
+	function d5f_custom_admin_notices( $message, $type, $dismiss = 'is-dismissible' ){
 		
 		// Not great to use global scope, but it is only within this function
 		// to pass values into notification function

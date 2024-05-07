@@ -3,14 +3,20 @@ Contributors: Design519
 Donate link: http://design519.com/
 Tags: admin tools, helper
 Requires at least: 3.1
-Tested up to: 5.0.3
-Stable tag: 0.1.6
+Tested up to: 6.5.3
+Stable tag: 0.1.75
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 A suite of utilities to assist site administration
 
+This includes the following functionality:
+- 
+- 
+- 
+
+== Notes == 
 Note that the `readme.txt` of the stable tag is the one that is considered the defining one for the plugin, so
 if the `/trunk/readme.txt` file says that the stable tag is `4.3`, then it is `/tags/4.3/readme.txt` that'll be used
 for displaying information about the plugin.  In this situation, the only thing considered from the trunk `readme.txt`
